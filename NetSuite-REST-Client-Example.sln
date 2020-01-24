@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetSuite-REST-Client-Example", "NetSuite-REST-Client-Example\NetSuite-REST-Client-Example.csproj", "{DFE474B4-F52B-4854-A1E0-D89E3E5708EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B179DE5B-3016-4D94-A222-9B6FE3832D99}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFE474B4-F52B-4854-A1E0-D89E3E5708EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFE474B4-F52B-4854-A1E0-D89E3E5708EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFE474B4-F52B-4854-A1E0-D89E3E5708EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFE474B4-F52B-4854-A1E0-D89E3E5708EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33D7B31B-49D3-4752-AFB5-C3D0A997301D}
+	EndGlobalSection
+EndGlobal
