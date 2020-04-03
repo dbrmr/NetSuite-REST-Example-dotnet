@@ -17,7 +17,7 @@ namespace NetSuiteRESTExample
             var nsAuth = services.GetService<INetSuiteOAuth>();
 
             string accountId = nsAuth.AccountId;
-            string baseUrl = string.Format("https://{0}.suitetalk.api.netsuite.com/rest/platform/v1/record/", accountId);
+            string baseUrl = string.Format("https://{0}.suitetalk.api.netsuite.com/services/rest/record/v1", accountId);
 
             using var httpClient = new HttpClient();
             httpClient.BaseAddress = new Uri(baseUrl);
